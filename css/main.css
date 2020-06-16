@@ -110,8 +110,3 @@ footer p {
   margin: 4px;
   transition: height 0.3s ease, width 0.3s ease;
 }
-
-.splide__pagination__page.is-active {
-  width: 18px;
-  height: 18px;
-}
