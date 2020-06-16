@@ -1,1 +1,1 @@
--- Landing page for GitInteractions
+## Landing page for GitInteractions
