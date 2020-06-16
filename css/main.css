@@ -99,8 +99,8 @@ footer p {
   width: auto;
   margin-top: 2rem;
   position: relative;
-  left: 25%;
-  transform: translateX(-25%);
+  left: 22.5%;
+  transform: translateX(-22.5%);
   min-height: 40px;
 }
 
