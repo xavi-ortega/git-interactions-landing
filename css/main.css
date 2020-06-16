@@ -178,3 +178,26 @@ footer p {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .splide__pagination {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .logo {
+    max-width: 175px;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  footer p {
+    text-align: center !important;
+  }
+}

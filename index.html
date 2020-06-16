@@ -34,12 +34,33 @@
   <body>
     <div class="container wrapper">
       <header>
-        <nav class="navbar navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-light">
           <a class="navbar-brand" href="https://gitinteractions.tech">
             <img class="img-fluid logo" src="img/logo.png" alt="GitInteractions" loading="lazy" />
           </a>
 
-          <div class="navbar-nav ml-auto d-inline">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-xs"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-xs">
+            <ul class="navbar-nav mx-auto d-sm-none">
+              <li class="nav-item border-bottom">
+                <a class="nav-link text-center" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navbar-nav ml-auto d-sm-inline d-none">
             <a class="btn btn-primary text-uppercase mr-5" href="https://app.gitinteractions.tech/login">Register</a>
 
             <a class="btn btn-outline-secondary text-uppercase" href="https://app.gitinteractions.tech/register">
@@ -55,7 +76,7 @@
             <ul class="splide__list">
               <li class="splide__slide">
                 <div class="row">
-                  <div class="col-6 text-center">
+                  <div class="col-md-6 col-sm-12 text-center">
                     <img
                       class="img-fluid"
                       src="img/repository.png"
@@ -63,7 +84,7 @@
                     />
                   </div>
 
-                  <div class="col-6 slider-text">
+                  <div class="col-md-6 col-sm-12 slider-text">
                     <h2 class="mb-5">The solution to improve your team's performance</h2>
 
                     <p>
@@ -76,7 +97,7 @@
               </li>
               <li class="splide__slide">
                 <div class="row">
-                  <div class="col-6 text-center">
+                  <div class="col-md-6 col-sm-12 text-center">
                     <img
                       class="img-fluid"
                       src="img/developer-interactions.png"
@@ -84,7 +105,7 @@
                     />
                   </div>
 
-                  <div class="col-6 slider-text">
+                  <div class="col-md-6 col-sm-12 slider-text">
                     <h2 class="mb-5">Witness how open source software companies work</h2>
 
                     <p>
@@ -97,11 +118,11 @@
               </li>
               <li class="splide__slide">
                 <div class="row">
-                  <div class="col-6 text-center">
+                  <div class="col-md-6 col-sm-12 text-center">
                     <img class="img-fluid" src="img/report.png" alt="Draw your own conclusions" />
                   </div>
 
-                  <div class="col-6 slider-text">
+                  <div class="col-md-6 col-sm-12 slider-text">
                     <h2 class="mb-5">Draw your own conclusions</h2>
 
                     <p>
@@ -127,18 +148,34 @@
 
       <footer>
         <div class="row">
-          <div class="col-6 text-left">
+          <div class="col-md-6 col-sm-12 text-left">
             <p>
               &copy; GitInteractions by
               <a href="https://github.com/xavi-ortega" title="Find me on Github" target="_blank">Xavi Ortega</a>
             </p>
           </div>
 
-          <div class="col-6 text-right">
+          <div class="col-md-6 col-sm-12 text-right">
             <p>Terms & Conditions | Privacy Policy | Supports | Cookies Policy</p>
           </div>
         </div>
       </footer>
+
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
     </div>
   </body>
 </html>
